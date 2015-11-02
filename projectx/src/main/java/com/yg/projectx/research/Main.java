@@ -16,7 +16,7 @@ public class Main {
 	
 	public static void main(String ... v) {
 		Configuration config = HBaseConfiguration.create();
-		config.set("hbase.master", "127.0.0.1");
+		config.set("hbase.master", "127.0.0.1");	//Test
 				
 		Connection conn = null;
 		try {
